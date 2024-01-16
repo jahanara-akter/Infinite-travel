@@ -5,10 +5,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinite Travel</title>
+    <!-- ================================== google fonts ================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+        rel="stylesheet">
+    <!-- ================================== google fonts ================================== -->
+    <!-- ================================ font awosume ===================================== -->
+    <script src="https://kit.fontawesome.com/4dec750174.js" crossorigin="anonymous"></script>
+    <!-- =================================== font awosume ================================== -->
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
+    <header>
+        <!-- =============================== nav start here =============================== -->
+        <div class="container">
+            <nav>
+                <ul class="nav-bar">
+                    <div class="logo">
+                        <li><a href="#"><img src="images/nav-logo.png" alt="nav-logo.png"></a></li>
+                        <h2>Infinite <span>Travel</span></h2>
+                    </div>
+                    <input type="checkbox" id="check">
+                    <span class="menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"> <i class="fa-solid fa-bars"></i></label>
+                </ul>
+            </nav>
+        </div>
+        <!-- =============================== nav end here =============================== -->
+        <!-- =============================== banner start here =============================== -->
+        <section id="banner">
+            <div class="container">
+                <div class="banner-title">
+                    <h1>Explore Your Travel</h1>
+                    <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim
+                        ac quis sapien urna eu phasellus.</p>
+                </div>
+                <div class="banner-btn">
+                    <input type="text" placeholder="Where go">
+                    <input type="text" placeholder="Where go">
+                    <input type="text" placeholder="Where go">
+                    <button><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+                </div>
+            </div>
+        </section>
+        <!-- =============================== banner end here =============================== -->
+    </header>
+    <main>
+        <!--  =============================== popular tour start here =============================== -->
+        <section id="popular-tour">
+            <div class="container">
+                <div class="popular-text-section">
+                    <h2>Our Popular Tours</h2>
+                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
+                        dictumst nec nibh pellentesque.</p>
+                    <ul>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
+                            erat at .</li>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
+                            erat at .</li>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
+                            erat at .</li>
+                    </ul>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus
+                        ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing
+                        risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                    <button>Read More</button>
+                </div>
+                <div class="popular-tour-image">
+                    <img src="images/popular-tour.png" alt="popular-tour.png">
+                </div>
+            </div>
+        </section>
+        <!--  =============================== popular tour end here =============================== -->
+        <!--  =============================== destination part start here ========================== -->
+        <section id="destination-part">
+            <div class="container">
+                <div class="destination-title">
+                    <h4>Choose Your Destination</h4>
+                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
+                        dictumst nec nibh pellentesque.</p>
+                </div>
+                <div class="destination-images-one">
+                    <div class="Maldives">
+                        <img src="images/Rectangle 5.png" alt="Rectangle 5.png">
+                        <div class="text">
+                            <h5>Maldives</h5>
+                        </div>
+                    </div>
+                    <div class="Indonesia">
+                        <img src="images/Rectangle 8.png" alt="Rectangle 8.png">
+                        <div class="text">
+                            <h5>Indonesia</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-images-two">
+                    <div class="Srilanka">
+                        <img src="images/Rectangle 6.png" alt="Rectangle 6.png">
+                        <div class="text">
+                            <h5>Srilanka</h5>
+                        </div>
+                    </div>
+                    <div class="North-America">
+                        <img src="images/Rectangle 7.png" alt="Rectangle 7.png">
+                        <div class="text">
+                            <h5>North America</h5>
+                        </div>
+                    </div>
+                    <div class="Kashmir">
+                        <img src="images/Rectangle 9.png" alt="Rectangle 9.png">
+                        <div class="text">
+                            <h5>Kashmir</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="destination-images-three">
+                    <div class="Bangladesh">
+                        <img src="images/Rectangle 11.png" alt="Rectangle 11.png">
+                        <div class="text">
+                            <h5>Bangladesh</h5>
+                        </div>
+                    </div>
+                    <div class="Bandarban">
+                        <img src="images/Rectangle 10.png" alt="Rectangle 10.png">
+                        <div class="text">
+                            <h5>Bandarban</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  ===============================destination part end here ============================= -->
 
+    </main>
 </body>
 
 </html>

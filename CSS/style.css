@@ -1,0 +1,594 @@
+/* ============================= common css start here ================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* ==============================common css end here =================================== */
+/* ================================ nav start here ===================================== */
+header {
+    padding: 53px 0 100px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 17px;
+}
+
+.logo h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo h2 span {
+    color: #FF5400;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    column-gap: 44px;
+}
+
+.menu li a {
+    display: inline-block;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.4s all linear;
+}
+
+.menu li .active {
+    color: #FF5400;
+}
+
+.menu li a:hover {
+    color: #FF5400;
+}
+
+.open-menu,
+.close-menu {
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+.check {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* ================================ nav end here ======================================= */
+/* ================================ banner start here ======================================= */
+#banner {
+    margin-top: 60px;
+}
+
+#banner .container {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    padding: 106px 100px;
+}
+
+.banner-title {
+    max-width: 676px;
+    margin: 0 auto;
+}
+
+.banner-title h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.banner-title p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.banner-btn {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    text-align: center;
+}
+
+.banner-btn input {
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px 0 16px 16px;
+    border: 0;
+    margin-right: 24px;
+}
+
+.banner-btn button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+    padding: 16px 35px;
+}
+
+.banner-btn button i {
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
+
+/* ================================ banner  end here ======================================= */
+/* ================================ popular tour start here ======================================= */
+#popular-tour .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-text-section {
+    max-width: 530px;
+}
+
+.popular-text-section h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.popular-text-section p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.popular-text-section ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.popular-text-section button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 14px 35px;
+    border: 0;
+}
+
+/* ================================ popular tour  end here ======================================= */
+/* ================================ destination part start here ======================================= */
+#destination-part {
+    margin: 100px 0;
+}
+
+.destination-title {
+    max-width: 643px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.destination-title h4 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.destination-title p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.destination-images-one,
+.destination-images-two,
+.destination-images-three {
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 24px;
+}
+
+.Maldives,
+.Indonesia,
+.Srilanka,
+.North-America,
+.Kashmir,
+.Bangladesh,
+.Bandarban {
+    position: relative;
+}
+
+.Maldives .text,
+.Indonesia .text,
+.Srilanka .text,
+.North-America .text,
+.Kashmir .text,
+.Bangladesh .text,
+.Bandarban .text {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.Maldives .text h5,
+.Indonesia .text h5,
+.Srilanka .text h5,
+.North-America .text h5,
+.Kashmir .text h5,
+.Bangladesh .text h5,
+.Bandarban .text h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* ================================ destination part  end here ======================================= */
+/* ============================== responsive css start here ============================ */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 30px 0 30px;
+    }
+
+    .logo {
+        column-gap: 0;
+        padding-left: 15px;
+    }
+
+    .logo img {
+        width: 80%;
+    }
+
+    .logo h2 {
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        transition: 0.4s all ease-in-out;
+    }
+
+    .menu li {
+        margin-top: 10px;
+    }
+
+    .menu li a {
+        padding: 10px;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
+
+    #banner .container {
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner-image.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 32px 15px;
+        margin: 0 20px;
+    }
+
+    .banner-title {
+        max-width: 304px;
+        margin: 0 auto;
+    }
+
+    .banner-title h1 {
+        font-size: 1.375rem;
+    }
+
+    .banner-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .banner-btn input {
+        width: 100%;
+    }
+
+    #popular-tour .container {
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .popular-text-section {
+        max-width: 335px;
+        margin-bottom: 20px;
+    }
+
+    .popular-text-section h2 {
+        font-size: 2rem;
+    }
+
+    .popular-tour-image img {
+        width: 100%;
+    }
+
+    .destination-images-one,
+    .destination-images-two,
+    .destination-images-three {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 12px;
+    }
+
+    .destination-images-one img,
+    .destination-images-two img,
+    .destination-images-three img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .Maldives .text,
+    .Indonesia .text,
+    .Srilanka .text,
+    .North-America .text,
+    .Kashmir .text,
+    .Bangladesh .text,
+    .Bandarban .text {
+        position: absolute;
+        top: 50%;
+        left: 33%;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    header {
+        padding: 50px 0 50px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        transition: 0.4s all ease-in-out;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menu li {
+        margin-top: 10px;
+    }
+
+    .menu li a {
+        padding: 0px;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
+
+    #banner .container {
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner-image.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 30px 20px;
+        margin: 0 20px;
+    }
+
+    .banner-btn {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 10px;
+    }
+
+    .banner-btn input {
+        width: 100%;
+    }
+
+    #popular-tour .container {
+        flex-direction: column;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .popular-text-section {
+        margin-bottom: 20px;
+    }
+
+    .popular-tour-image img {
+        width: 100%;
+    }
+
+    .destination-images-one,
+    .destination-images-two,
+    .destination-images-three {
+        flex-direction: column;
+        gap: 12px;
+        margin: 0 20px;
+    }
+
+    .destination-images-one img,
+    .destination-images-two img,
+    .destination-images-three img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .Maldives .text,
+    .Indonesia .text,
+    .Srilanka .text,
+    .North-America .text,
+    .Kashmir .text,
+    .Bangladesh .text,
+    .Bandarban .text {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    nav {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .menu {
+        column-gap: 30px;
+    }
+
+    .banner-btn {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px;
+    }
+
+    .banner-btn input {
+        width: 100%;
+    }
+
+    #banner .container {
+        padding: 106px 100px;
+        margin: 0 20px;
+    }
+
+    #popular-tour .container {
+        margin: 25px;
+        gap: 20px;
+
+    }
+
+    .popular-tour-image img {
+        width: 100%;
+    }
+
+    .popular-text-section {
+        width: 50%;
+    }
+
+    .destination-images-one img,
+    .destination-images-two img,
+    .destination-images-three img {
+        width: 100%;
+    }
+}
+
+/* ============================== responsive css end here ============================== */
