@@ -195,6 +195,7 @@ nav ul {
     color: #131318B2;
 
 }
+
 .banner-btn #angle-two {
     position: absolute;
     right: 28%;
@@ -203,6 +204,7 @@ nav ul {
     color: #131318B2;
 
 }
+
 .banner-btn input {
     border-radius: 8px;
     background: #FFF;
@@ -249,6 +251,7 @@ nav ul {
 .popular-text-section p {
     margin-top: 24px;
     margin-bottom: 24px;
+    text-align: start;
 }
 
 .popular-text-section ul li {
@@ -615,6 +618,81 @@ nav ul {
 }
 
 /* =============================== newsletter part end here =============================  */
+/* ================================ best awards part start here =================================== */
+#best-awards {
+    background: #fff7e1;
+    padding: 132px 0;
+}
+
+.best-awards-text h2 {
+    color: black;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.best-awards-text h4 {
+    color: black;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.best-awards-text button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 14px;
+    border: 0;
+}
+
+.best-awards-container {
+    display: flex;
+    column-gap: 30px;
+}
+
+.best-images {
+    position: relative;
+}
+
+.round-one {
+    background-color: #f2b203;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40%;
+}
+
+.round-two {
+    background-color: #00aa6c;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+
+.best-images img {
+    width: 100%;
+    border-radius: 20px;
+    transform: rotate(-19.628deg);
+}
+
+/* ================================ best awards part end here =================================== */
 /* ===================================== footer part start here ====================================  */
 footer {
     background: rgba(19, 19, 24, 0.05);
@@ -743,14 +821,17 @@ footer h5 {
         padding: 32px 15px;
         margin: 0 20px;
     }
+
     .banner-btn #angle-one {
         right: 28%;
         top: 35%;
     }
+
     .banner-btn #angle-two {
         right: 28%;
         top: 58%;
     }
+
     .banner-title {
         max-width: 304px;
         margin: 0 auto;
@@ -880,8 +961,24 @@ footer h5 {
         margin-bottom: 50px;
     }
 
+    .best-awards-container {
+        flex-direction: column;
+        gap: 80px;
+        margin: 0 20px;
+    }
+
+    #best-awards {
+        padding: 50px 0;
+    }
+
+    .round-two,
+    .round-one {
+        display: none;
+    }
+
     footer {
         padding-bottom: 32px;
+        margin-top: 80px;
     }
 
     .footer-title {
@@ -899,7 +996,11 @@ footer h5 {
     footer h5 {
         margin-top: 24px;
     }
-    
+
+    .best-images img {
+        transform: rotate(0);
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:768px) {
@@ -940,14 +1041,17 @@ footer h5 {
     #check:checked~.menu {
         right: 0;
     }
+
     .banner-btn #angle-one {
         right: 60%;
         top: 68%;
     }
-    .banner-btn #angle-two{
+
+    .banner-btn #angle-two {
         right: 13%;
         top: 22%;
     }
+
     #banner .container {
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner-image.png);
         background-repeat: no-repeat;
@@ -1059,6 +1163,7 @@ footer h5 {
 
     footer {
         padding-bottom: 32px;
+        margin-top: 50px;
     }
 
     .footer-title {
@@ -1077,6 +1182,13 @@ footer h5 {
         margin-top: 24px;
     }
 
+    .round-two {
+        top: 38%;
+        left: 32%;
+    }
+    .best-awards-container{
+        margin: 20px 20px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -1094,14 +1206,17 @@ footer h5 {
         grid-template-columns: repeat(2, 2fr);
         gap: 20px;
     }
+
     .banner-btn #angle-one {
         right: 60%;
         top: 68%;
     }
+
     .banner-btn #angle-two {
         right: 10%;
         top: 23%;
     }
+
     .banner-btn input {
         width: 100%;
     }
