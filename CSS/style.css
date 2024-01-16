@@ -698,6 +698,7 @@ footer {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
     padding-bottom: 110px;
+    margin-top: 130px;
 }
 
 .footer-container {
@@ -1163,7 +1164,7 @@ footer h5 {
 
     footer {
         padding-bottom: 32px;
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .footer-title {
@@ -1186,8 +1187,9 @@ footer h5 {
         top: 38%;
         left: 32%;
     }
-    .best-awards-container{
-        margin: 20px 20px;
+
+    .best-awards-container {
+        margin: 20px 30px;
     }
 }
 
