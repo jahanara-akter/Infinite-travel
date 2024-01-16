@@ -876,6 +876,8 @@ footer h5 {
         flex-direction: column;
         gap: 12px;
         margin-bottom: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .destination-images-one img,
@@ -897,6 +899,11 @@ footer h5 {
         left: 33%;
     }
 
+    #choose-part {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
     .choose-main-text {
         flex-direction: column;
         width: 100%;
@@ -906,6 +913,11 @@ footer h5 {
 
     .choose-last-part {
         margin: 0 auto;
+    }
+
+    #deals-and-discount-part {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .deals-image-one,
@@ -941,6 +953,8 @@ footer h5 {
     .newsletter-container {
         flex-direction: column;
         margin-top: 24px;
+        margin-left: 10px;
+        margin-right: 10px;
 
     }
 
@@ -949,8 +963,8 @@ footer h5 {
     }
 
     .newsletter-container .text {
-        padding: 15px;
-        right: 10px;
+        padding: 10px;
+        right: 8px;
     }
 
     .newsletter-container .text h5,
@@ -1187,6 +1201,7 @@ footer h5 {
     footer h5 {
         margin-top: 24px;
     }
+
     .round-two {
         top: 30%;
         left: 32%;
@@ -1270,9 +1285,11 @@ footer h5 {
     .newsletter-container {
         margin: 50px 20px;
     }
+
     .best-images img {
         width: 92%;
     }
+
     .round-two {
         top: 64%;
         left: 41%;
