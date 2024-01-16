@@ -594,11 +594,13 @@ footer {
     text-align: center;
     padding-bottom: 110px;
 }
-.footer-container{
+
+.footer-container {
     text-align: center;
     margin: 0 auto;
     max-width: 769px;
 }
+
 .footer-title {
     text-align: center;
     display: flex;
@@ -839,6 +841,30 @@ footer h5 {
     .newsletter-container .text h6 {
         font-size: 20px;
     }
+
+    .newsletter-container {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        padding-bottom: 32px;
+    }
+
+    .footer-title {
+        padding-top: 34px;
+    }
+
+    .footer-paragraph {
+        margin-bottom: 16px;
+    }
+
+    footer .icon {
+        margin-bottom: 24px;
+    }
+
+    footer h5 {
+        margin-top: 24px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:768px) {
@@ -987,6 +1013,26 @@ footer h5 {
 
     .newsletter-container .text {
         padding: 30px;
+    }
+
+    footer {
+        padding-bottom: 32px;
+    }
+
+    .footer-title {
+        padding-top: 34px;
+    }
+
+    .footer-paragraph {
+        margin-bottom: 16px;
+    }
+
+    footer .icon {
+        margin-bottom: 24px;
+    }
+
+    footer h5 {
+        margin-top: 24px;
     }
 
 }
