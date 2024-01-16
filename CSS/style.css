@@ -1179,18 +1179,23 @@ footer h5 {
         margin-bottom: 24px;
     }
 
+    .footer-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     footer h5 {
         margin-top: 24px;
     }
-
     .round-two {
-        top: 38%;
+        top: 30%;
         left: 32%;
     }
 
     .best-awards-container {
-        margin: 20px 30px;
+        margin: 20px 50px;
     }
+
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -1264,6 +1269,13 @@ footer h5 {
 
     .newsletter-container {
         margin: 50px 20px;
+    }
+    .best-images img {
+        width: 92%;
+    }
+    .round-two {
+        top: 64%;
+        left: 41%;
     }
 }
 
